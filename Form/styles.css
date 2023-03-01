@@ -1,0 +1,12 @@
+form {
+    margin-top: 40px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+}
+
+.options li {
+    display: inline;
+}
