@@ -1,2 +1,2 @@
 # Formulario
- HTML | JavaScript | JQuery
+ HTML | JavaScript | JQuery | Front-end 2 | Faculdade
