@@ -21,15 +21,18 @@ console.log(tblAluno);
 // submeter for acionado.
 
 //função unária(ou solitária)
-$("#frmCadastro").bind("submit", function(){
+$("#frmCadastro").bind("submit", function(){ //bind = vínculo
 
     console.log("frmCadastro foi invocado!")
 
     var codigo = $("#txtCodigo").val(); // obtendo dados digitados pelo usuário
-    var nome = $("#txtNome").val();
+    var nome = $("#txtNome").val(); // obtendo dados digitados pelo usuário
 
-    console.log("Código: ", codigo)
-    console.log("Nome: ", nome)
+    alert(codigo);
+    alert(nome);
+
+    console.log("Código: ", codigo);
+    console.log("Nome: ", nome);
 
     return true;
-}); //bind = vinculo
+}); 
