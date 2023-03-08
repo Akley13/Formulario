@@ -12,6 +12,13 @@ var indice_selecionado = -1;
 var tblAluno = localStorage.getItem("alunos");
 console.log(tblAluno);
 
-
-
 });
+
+// Criar uma função para direcionar a operação que será realizada:
+// A - Adição/Inclusão; E - "Edição"
+// Precisamos capturar os dados através da função quando o botão de 
+// submeter for acionado.
+
+$("#frmCadastro").bind("submit", function(){
+
+}); //bind = vinculo
