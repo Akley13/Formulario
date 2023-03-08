@@ -1,6 +1,7 @@
 // $ - É uma representação das funções do jquery - escopo
 // Function - É uma palavra reservada e ao declarar (váriaves)
 
+//função global
 $(function(){
 console.log('Início da função para fazer registro de dados.')
 var operacao = "A"; // A - Adição/Inclusão; E - "Edição"
@@ -19,13 +20,16 @@ console.log(tblAluno);
 // Precisamos capturar os dados através da função quando o botão de 
 // submeter for acionado.
 
+//função unária(ou solitária)
 $("#frmCadastro").bind("submit", function(){
 
     console.log("frmCadastro foi invocado!")
 
-    var codigo = $("#txtCodigo").val();
+    var codigo = $("#txtCodigo").val(); // obtendo dados digitados pelo usuário
     var nome = $("#txtNome").val();
 
     console.log("Código: ", codigo)
     console.log("Nome: ", nome)
+
+    return true;
 }); //bind = vinculo
