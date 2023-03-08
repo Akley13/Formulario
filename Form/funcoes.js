@@ -21,4 +21,11 @@ console.log(tblAluno);
 
 $("#frmCadastro").bind("submit", function(){
 
+    console.log("frmCadastro foi invocado!")
+
+    var codigo = $("#txtCodigo").val();
+    var nome = $("#txtNome").val();
+
+    console.log("Código: ", codigo)
+    console.log("Nome: ", nome)
 }); //bind = vinculo
